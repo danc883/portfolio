@@ -228,11 +228,12 @@ function Portfolio() {
                     </div>
                     {card.images.length > 1 && (
                       card.images.slice(1).map(img => (
+                        img ? 
                         <a
                           href={img}
                           data-lightbox={card.lightbox}
                           style={{ display: "none" }}
-                        />
+                        /> : null
                       ))
                     )}
                   </div>
