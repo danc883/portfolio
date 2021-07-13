@@ -191,24 +191,24 @@ function Portfolio() {
                           <span className="w-ctegory d-flex">
                             {card.stack.split(",").map(s=>{
                               const stack = s.trim();
-                              const src = (stack == "React") ? ReactImg : 
-                                          (stack == "Gatsby") ? GatsbyImg :
-                                          (stack == "Next") ? NextImg :
-                                          (stack == "JavaScript") ? JSImg :
-                                          (stack == "Node") ? NodeImg :
-                                          (stack == "Vue") ? VueImg :
-                                          (stack == "Vuetify") ? VuetifyImg :
-                                          (stack == "Nuxt") ? NuxtImg :
-                                          (stack == "Ruby") ? RubyImg :
-                                          (stack == "Ruby on Rails") ? RailsImg :
-                                          (stack == "Bootstrap") ? BootstrapImg :
-                                          (stack == "Netlify") ? NetlifyImg :
-                                          (stack == "AWS") ? AwsImg :
-                                          (stack == "PostgreSQL") ? PostgreImg :
-                                          (stack == "Styled-components") ? StyledImg :
+                              const src = (stack === "React") ? ReactImg : 
+                                          (stack === "Gatsby") ? GatsbyImg :
+                                          (stack === "Next") ? NextImg :
+                                          (stack === "JavaScript") ? JSImg :
+                                          (stack === "Node") ? NodeImg :
+                                          (stack === "Vue") ? VueImg :
+                                          (stack === "Vuetify") ? VuetifyImg :
+                                          (stack === "Nuxt") ? NuxtImg :
+                                          (stack === "Ruby") ? RubyImg :
+                                          (stack === "Ruby on Rails") ? RailsImg :
+                                          (stack === "Bootstrap") ? BootstrapImg :
+                                          (stack === "Netlify") ? NetlifyImg :
+                                          (stack === "AWS") ? AwsImg :
+                                          (stack === "PostgreSQL") ? PostgreImg :
+                                          (stack === "Styled-components") ? StyledImg :
                                           null;
                               return (
-                                <div className="d-block"><img src={src} className="ctegory-skills" /> <p className="text-center">{stack}</p></div>
+                                <div className="d-block"><img src={src} alt={src} className="ctegory-skills" /> <p className="text-center">{stack}</p></div>
                               )
                             })}
                           </span>
