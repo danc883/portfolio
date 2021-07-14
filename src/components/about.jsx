@@ -38,6 +38,9 @@ class About extends React.Component {
                     <img className="img-fluid rounded b-shadow-a" src={myImage} alt="Abou Me" />
                   </div>
                 </div>
+                <div className="about-resume d-flex">
+                  <a href="./assets/resume/Resume.PDF" target="_blank" class="btn btn-warning py-3 px-3 m-auto">Download Resume</a>
+                </div>
                 <h3>Education</h3>
                 <div className="education">
                   <div className="d-flex mb-5">
@@ -112,15 +115,12 @@ class About extends React.Component {
                     </div>
                   </div>
                 </div>
-                <h3>Links</h3>
+                <h3>Social Links</h3>
                 <div className="about-links d-flex">
                   <SocialIcon url="https://www.linkedin.com/in/mark-miller-4b8b481aa/" target="_blank"/>
                   <SocialIcon url="https://twitter.com/MarkMiler4" target="_blank" />
                   <SocialIcon url="https://github.com/pryysm" target="_blank" />
                   <SocialIcon url="mailto:ard312712@gmail.com" target="_blank" />
-                </div>
-                <div className="about-resume">
-                  <a href="./assets/resume/Resume.PDF" target="_blank" class="btn btn-warning py-3 px-3">Download Resume</a>
                 </div>
               </div>
             </div>
