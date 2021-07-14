@@ -112,7 +112,7 @@ class About extends React.Component {
                   <SocialIcon url="mailto:ard312712@gmail.com" target="_blank" />
                 </div>
                 <div className="about-resume">
-                  <a href="../assets/resume/Resume.PDF" target="_blank" class="btn btn-warning py-3 px-3">Download Resume</a>
+                  <a href="./assets/resume/Resume.PDF" target="_blank" class="btn btn-warning py-3 px-3">Download Resume</a>
                 </div>
               </div>
             </div>

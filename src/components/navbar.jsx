@@ -4,6 +4,7 @@ import $ from "jquery";
 import logo from "../assets/img/logo.png";
 
 class Navbar extends React.Component {
+  // eslint-disable-next-line
   constructor() {
     super();
   }
@@ -116,7 +117,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="../assets/resume/Resume.PDF" target="_blank">
+                <a className="nav-link" href="./assets/resume/Resume.PDF" target="_blank">
                   Resume
                 </a>
               </li>
