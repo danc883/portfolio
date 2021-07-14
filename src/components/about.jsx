@@ -58,50 +58,58 @@ class About extends React.Component {
                   </div>
                 </div>
                 <h3>Skills</h3>
-                <div className="row skill  d-flex justify-content-around">
-                  <div>
-                    <img className="skill-img" src={ReactImg} alt="React"/>
-                    <p className="text-center font-weight-bold">React</p>
+                <div>
+                  <p className="text-center font-weight-bold skill-part">Front-end part Skillsets</p>
+                  <div className="row skill  d-flex justify-content-around">
+                    <div>
+                      <img className="skill-img" src={ReactImg} alt="React"/>
+                      <p className="text-center font-weight-bold">React</p>
+                    </div>
+                    <div>
+                      <img className="skill-img" src={Redux} alt="Redux"/>
+                      <p className="text-center font-weight-bold">Redux</p>
+                    </div>
+                    <div>
+                      <img className="skill-img" src={Gatsby} alt="Gatsby"/>
+                      <p className="text-center font-weight-bold">Gatsby</p>
+                    </div>
+                    <div>
+                      <img className="skill-img" src={Vue} alt="Vue"/>
+                      <p className="text-center font-weight-bold">Vue</p>
+                    </div>
+                    <div>
+                      <img className="skill-img" src={Vuetify} alt="Vuetify"/>
+                      <p className="text-center font-weight-bold">Vuetify</p>
+                    </div>
+                    <div>
+                      <img className="skill-img" src={JavaScript} alt="JavaScript"/>
+                      <p className="text-center font-weight-bold">JavaScript</p>
+                    </div>
+                    <div>
+                      <img className="skill-img" src={Node} alt="Node"/>
+                      <p className="text-center font-weight-bold">Node.js</p>
+                    </div>
                   </div>
-                  <div>
-                    <img className="skill-img" src={Redux} alt="Redux"/>
-                    <p className="text-center font-weight-bold">Redux</p>
-                  </div>
-                  <div>
-                    <img className="skill-img" src={Gatsby} alt="Gatsby"/>
-                    <p className="text-center font-weight-bold">Gatsby</p>
-                  </div>
-                  <div>
-                    <img className="skill-img" src={Vue} alt="Vue"/>
-                    <p className="text-center font-weight-bold">Vue</p>
-                  </div>
-                  <div>
-                    <img className="skill-img" src={Vuetify} alt="Vuetify"/>
-                    <p className="text-center font-weight-bold">Vuetify</p>
-                  </div>
-                  <div>
-                    <img className="skill-img" src={JavaScript} alt="JavaScript"/>
-                    <p className="text-center font-weight-bold">JavaScript</p>
-                  </div>
-                  <div>
-                    <img className="skill-img" src={Node} alt="Node"/>
-                    <p className="text-center font-weight-bold">Node.js</p>
-                  </div>
-                  <div>
-                    <img className="skill-img" src={Ruby} alt="Ruby"/>
-                    <p className="text-center font-weight-bold">Ruby</p>
-                  </div>
-                  <div>
-                    <img className="skill-img" src={Rails} alt="RoR"/>
-                    <p className="text-center font-weight-bold">Ruby on Rails</p>
-                  </div>
-                  <div>
-                    <img className="skill-img" src={PostgreSQL} alt="PostgreSQL"/>
-                    <p className="text-center font-weight-bold">PostgreSQL</p>
-                  </div>
-                  <div>
-                    <img className="skill-img" src={MySQL} alt="MySQL"/>
-                    <p className="text-center font-weight-bold">MySQL</p>
+                </div>
+                <div>
+                  <p className="text-center font-weight-bold skill-part">Back-end part Skillsets</p>
+                  <div className="row skill  d-flex justify-content-around">
+                    <div>
+                      <img className="skill-img" src={Ruby} alt="Ruby"/>
+                      <p className="text-center font-weight-bold">Ruby</p>
+                    </div>
+                    <div>
+                      <img className="skill-img" src={Rails} alt="RoR"/>
+                      <p className="text-center font-weight-bold">Ruby on Rails</p>
+                    </div>
+                    <div>
+                      <img className="skill-img" src={PostgreSQL} alt="PostgreSQL"/>
+                      <p className="text-center font-weight-bold">PostgreSQL</p>
+                    </div>
+                    <div>
+                      <img className="skill-img" src={MySQL} alt="MySQL"/>
+                      <p className="text-center font-weight-bold">MySQL</p>
+                    </div>
                   </div>
                 </div>
                 <h3>Links</h3>
