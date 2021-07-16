@@ -751,7 +751,6 @@ PORTFOLIO
 .work-feedback {
   padding-left: 4%;
   padding-right: 3%;
-  padding-bottom: 1rem;
 }
 .feedback-customer {
   font-size: 20px;
@@ -764,6 +763,18 @@ PORTFOLIO
 .w-title {
   font-size: 30px;
   margin: 0 auto 10px;
+  position: absolute;
+  z-index: 100;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: black;
+  border-radius: 10px;
+  padding: 0 10px;
+  opacity: 0.8;
+  color: blue;
+  &:hover {
+    color: white;
+  }
 }
 
 /*
@@ -1042,7 +1053,7 @@ BUTTON
   }
   
   .work-img img {
-    height: 250px;
+    height: 280px;
   }
 }
 

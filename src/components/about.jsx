@@ -120,7 +120,7 @@ class About extends React.Component {
                   <SocialIcon url="https://www.linkedin.com/in/mark-miller-4b8b481aa/" target="_blank"/>
                   <SocialIcon url="https://twitter.com/MarkMiler4" target="_blank" />
                   <SocialIcon url="https://github.com/pryysm" target="_blank" />
-                  <SocialIcon url="mailto:ard312712@gmail.com" target="_blank" />
+                  <SocialIcon url="mailto:markmillermkm@gmail.com" target="_blank" />
                 </div>
               </div>
             </div>

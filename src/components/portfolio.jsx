@@ -64,7 +64,7 @@ import max6 from "../assets/img/projects/max6.png";
 const cardData = [
   {images: [goodeggs1, goodeggs2, goodeggs3],
     url:"https://www.goodeggs.com/",
-    title: "Goodeggs.com",
+    title: "Goodeggs",
     stack: "React, Gatsby, Node, Bootstrap, AWS",
     description: "Absurdly fresh groceries, delivered. I convert the Figma to UI using React, Redux, Hooks, Node, and Bootstrap.",
     lightbox: "gallery-emarine",
@@ -175,16 +175,16 @@ function Portfolio() {
                 <div className="col-md-6">
                   <div className="work-box">
                     <div className="work-blog">
+                      <div style={{ display: "flex" }}>
+                        <a href={card.url} className="w-title text-primary" target="_blank" rel="noopener noreferrer">{card.title}</a>
+                      </div>
                       <a href={card.images[0]} data-lightbox={card.lightbox}>
                         <div className="work-img">
                           <img src={card.images[0]} alt="" className="img-fluid" />
                         </div>
                       </a>
                       <div className="work-content">
-                        <div style={{ display: "flex" }}>
-                          <a href={card.url} className="w-title" target="_blank" rel="noopener noreferrer">{card.title}</a>
-                        </div>
-                        <a href={card.url} target="_blank" rel="noopener noreferrer">
+                        <a href={card.url} target="_blank" rel="noopener noreferrer" className="text-primary">
                           <p>{card.description}</p>
                         </a>
                         <div>
@@ -208,7 +208,7 @@ function Portfolio() {
                                           (stack === "Styled-components") ? StyledImg :
                                           null;
                               return (
-                                <div className="d-block"><img src={src} alt={src} className="ctegory-skills" /> <p className="text-center">{stack}</p></div>
+                                <div className="d-block"><img src={src} alt={src} className="ctegory-skills" /> <p className="text-center text-dark">{stack}</p></div>
                               )
                             })}
                           </span>
@@ -243,7 +243,7 @@ function Portfolio() {
           </div>
           {compNum < cardData.length && (
             <div className="col-12 d-flex">
-              <button className="m-auto btn-success road-more" onClick={()=>setCompNum(compNum + 4)}>Road More Projects</button>
+              <button className="m-auto btn-success road-more" onClick={()=>setCompNum(compNum + 4)}>Load More Projects</button>
             </div>
           )}
         </div>
