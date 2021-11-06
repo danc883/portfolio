@@ -29,14 +29,14 @@ class About extends React.Component {
                     <div className="line-mf"></div>
                   </div>
                 <div className="row">
-                  <div className="col-md-6"> 
+                  {/* <div className="col-md-6">  */}
                     <div className="about-me pt-4 pt-md-0">
                       <p className="lead">This is Mark, a Senior Front End Engineer with 10 years of experience. <br /> The systems I build are flexible, scale-able and future-proof while remaining easy to backup, maintain and update. Perhaps most important - everything I construct is PROFITABLE because all of my processes, including design, are influenced by data and many years of experience optimizing websites and apps to exceed standards. <br /> I am efficient and communicate effectively. I believe in delivering only quality, flexible, maintainable code to my customers.</p>
                     </div>
-                  </div>
-                  <div className="col-md-6 about-img">
+                  {/* </div> */}
+                  {/* <div className="col-md-6 about-img">
                     <img className="img-fluid rounded b-shadow-a" src={myImage} alt="Abou Me" />
-                  </div>
+                  </div> */}
                 </div>
                 <div className="about-resume d-flex">
                   <a href="./assets/resume/Resume.PDF" target="_blank" class="btn btn-warning py-3 px-3 m-auto">Download Resume</a>

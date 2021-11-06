@@ -1,7 +1,7 @@
 import React from "react";
 import $ from "jquery";
 
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logo.jpg";
 
 class Navbar extends React.Component {
   // eslint-disable-next-line

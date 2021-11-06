@@ -208,7 +208,7 @@ function Portfolio() {
                                           (stack === "Styled-components") ? StyledImg :
                                           null;
                               return (
-                                <div className="d-block"><img src={src} alt={src} className="ctegory-skills" /> <p className="text-center text-dark">{stack}</p></div>
+                                <div className="d-block"><img src={src} alt={src} className="ctegory-skills" /> <p className="text-center text-dark font-weight-bold">{stack}</p></div>
                               )
                             })}
                           </span>
