@@ -42,6 +42,7 @@ class Intro extends React.Component {
                   View My Work
                 </a>
               </p>
+              <p className="built-by">I have built this portfolio using React</p>
             </div>
           </div>
         </div>
