@@ -119,7 +119,7 @@ class About extends React.Component {
                 <div className="about-links d-flex">
                   <SocialIcon url="https://www.linkedin.com/in/mark-miller-4b8b481aa/" target="_blank"/>
                   <SocialIcon url="https://twitter.com/MarkMiler4" target="_blank" />
-                  <SocialIcon url="https://github.com/webdev415" target="_blank" />
+                  <SocialIcon url="https://github.com/markmkm" target="_blank" />
                   <SocialIcon url="mailto:markmillermkm@gmail.com" target="_blank" />
                 </div>
               </div>
