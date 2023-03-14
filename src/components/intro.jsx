@@ -1,9 +1,9 @@
 import React from "react";
 import "../assets/css/stars.scss";
 import Typed from "react-typed";
-import ReactImg from "../assets/img/skills/react.png";
-import VueImg from "../assets/img/skills/vue.png";
-import RubyImg from "../assets/img/skills/ruby.png";
+import ReactImg from "../assets/img/skills/Front-end/react.png";
+import VueImg from "../assets/img/skills/Front-end/vue.png";
+import NodeImg from "../assets/img/skills/Back-end/node.png";
 
 class Intro extends React.Component {
   render() {
@@ -16,15 +16,15 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title mb-4">Hello, This is Mark</h1>
+              <h1 className="intro-title mb-4">Hello, This is Daniel</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "Sr Full Stack Developer",
-                      "React/Vue Front End Developer",
-                      "Ruby Back-end Developer"
+                      "Senior Full Stack Developer",
+                      "Senior Front End Developer",
+                      "Node Back-end Developer"
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
@@ -63,8 +63,8 @@ class Intro extends React.Component {
           </marquee>
           <marquee direction="up" className="img-ruby" behavior="alternate" height="500" width="50%">
             <marquee behavior="alternate">
-              <img src={RubyImg} alt="Ruby" />
-              <p>Ruby</p>
+              <img src={NodeImg} alt="Node" />
+              <p>Node.js</p>
             </marquee>
           </marquee>
         </div>

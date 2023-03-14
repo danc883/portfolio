@@ -117,18 +117,28 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./assets/resume/Resume.PDF" target="_blank">
-                  Resume
+                <a className="nav-link js-scroll" href="#experience">
+                  Experience
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#skills">
+                  Skills
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
-                  Work
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
                   Contact
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="./assets/resume/Resume.PDF" target="_blank">
+                  Resume
                 </a>
               </li>
             </ul>

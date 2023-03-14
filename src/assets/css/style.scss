@@ -663,6 +663,25 @@ ABOUT
       margin-bottom: 0.5rem;
     }
   }
+
+  #experience {
+    .comp {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    .title {
+      font-size: 20px;
+      color: #4299e1;
+      line-height: 5px;
+    }
+    .tech-stack {
+      font-size: 15px;
+      color: #a0aec0;
+      b {
+        color: #000;
+      }
+    }
+  }
   
   .skill-part {
     font-size: 20px;
@@ -675,7 +694,7 @@ ABOUT
     .skill-img {
       width: 70px;
       height: 70px;
-      margin: 5px 15px;
+      margin: 5px 25px;
     }
   }
   .about-resume {
@@ -690,6 +709,10 @@ ABOUT
       padding: 15px 30px !important;
     }
   }
+  .lead {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 }
 
 .about-links {
@@ -701,6 +724,9 @@ ABOUT
 /*
 PORTFOLIO
 */
+.work-block {
+  margin-bottom: 20px;
+}
 
 .work-box {
   margin-bottom: 3rem;
@@ -726,7 +752,7 @@ PORTFOLIO
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+  padding-left: 4%;
   .w-ctegory {
     font-size: 0.8rem;
     color: #0078ff;
@@ -1095,9 +1121,18 @@ BUTTON
     height: 100%;
     object-fit: cover;
   }
-  
-  
+
   .work-img img {
     height: auto;
+  }
+
+  #experience .period {
+    text-align: center;
+  }
+  .work-category {
+    display: flex;
+    b {
+      margin-right: 30px;
+    }
   }
 }
