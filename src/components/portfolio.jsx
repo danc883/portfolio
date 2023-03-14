@@ -8,8 +8,8 @@ import NodeImg from "../assets/img/skills/Back-end/node.png";
 import VueImg from "../assets/img/skills/Front-end/vue.png";
 import VuetifyImg from "../assets/img/skills/Front-end/vuetify.png";
 import NuxtImg from "../assets/img/skills/Front-end/nuxt.png";
-import RubyImg from "../assets/img/skills/Back-end/ruby.png";
-import RailsImg from "../assets/img/skills/Back-end/rails.png";
+import PhpImg from "../assets/img/skills/Back-end/php.png";
+import LaravelImg from "../assets/img/skills/Back-end/laravel.png";
 import BootstrapImg from "../assets/img/skills/Style/bootstrap.png";
 import NetlifyImg from "../assets/img/skills/other/netlify.png";
 import AwsImg from "../assets/img/skills/other/aws.png";
@@ -118,7 +118,7 @@ const cardData = [
   {images: [max1, max2, max3, max4, max5, max6],
     url:"https://www.maxar.com/",
     title: "MAXAR",
-    stack: "Vue, Vuetify, Bootstrap, Ruby, Ruby on Rails, PostgreSQL",
+    stack: "Vue, Vuetify, Bootstrap, PHP, Laravel, PostgreSQL",
     description: "Earth Intelligence & Space Infrastructure. convert Figma design to Vue Front-end. Implement new features, API Integration, and did Mobile responsive.",
     lightbox: "gallery-maxmarine",
     role: "Full-stack Engineer",
@@ -130,7 +130,7 @@ const cardData = [
   {images: [r1, r2, r3, r4, r5],
     url:"https://ridewithgps.com/",
     title: "Ridewithgps",
-    stack: "React, Bootstrap, JavaScript, Ruby, Ruby on Rails",
+    stack: "React, Bootstrap, JavaScript, PHP, Laravel",
     description: "Worked as Full-stack Developer. Built the RESTful API and API guidence. Build the Front end UI using React.",
     lightbox: "gallery-rmarine",
     role: "Software Engineer",
@@ -234,8 +234,8 @@ function Portfolio() {
                                         (stack === "Vue") ? VueImg :
                                         (stack === "Vuetify") ? VuetifyImg :
                                         (stack === "Nuxt") ? NuxtImg :
-                                        (stack === "Ruby") ? RubyImg :
-                                        (stack === "Ruby on Rails") ? RailsImg :
+                                        (stack === "PHP") ? PhpImg :
+                                        (stack === "Laravel") ? LaravelImg :
                                         (stack === "Bootstrap") ? BootstrapImg :
                                         (stack === "Netlify") ? NetlifyImg :
                                         (stack === "AWS") ? AwsImg :
